@@ -50,6 +50,8 @@ function TransactionForm({ onSubmit, onCancel, isSubmitting }) {
           type="text"
           value={formData.account_number}
           onChange={handleChange}
+          pattern="\d{4}-\d{4}-\d{4}"
+          title="Account number must be in format XXXX-XXXX-XXXX"
           required
         />
       </div>
