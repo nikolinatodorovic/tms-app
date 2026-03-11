@@ -112,6 +112,7 @@ http://127.0.0.1:8000
 In separate terminal, navigate to the frontend folder:
 
 ```bash
+cd tms-app
 cd tms-frontend
 ```
 
